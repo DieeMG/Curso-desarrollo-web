@@ -225,7 +225,7 @@ span{
     display: flex;
 }
 .derecha{
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 
@@ -239,6 +239,10 @@ footer{
 }
 
 @media(min-width: 768px){
+    
+    .derecha{
+        justify-content: flex-end;
+    }
     .servicios{
         display: grid;
         grid-template-columns: repeat(3, 1fr) ;
